@@ -1,17 +1,26 @@
 body{
     /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div{
-    position: absolute;
-    left: 35%;
-    width: 500px;
+
+    /* position: absolute; */
+    /* left: 30%; */
+    /* right: 30%; */
+    /* width: 100% !important; */
     height: 350px;
     background-color: rgb(128, 128, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
 }
 h1{
     width: 120px;
-    position: absolute;
-    left: 36%;
+    /* position: absolute; */
+    left: 45%;
     top: 50px;
     text-align: center;
     padding: 10px 0px;
@@ -21,23 +30,23 @@ h1{
     border: 10px solid cornflowerblue;
 }
 h2{
-    position: absolute;
-    left: 38%;
+    /* position: absolute; */
+    /* left: 45%; */
     font-size: 30px;
     font-style: oblique;
 }
 p{
-    position: absolute;
-    left: 10%;
-    top: 180px;
+    /* position: absolute; */
+    /* left: 10%; */
+    /* top: 180px; */
     color: white;
     font-size: 20px;
 }
 .btn{
     width: 120px;
-    position: absolute;
-    left: 38%;
-    top: 250px;
+    /* position: absolute; */
+    /* left: 45%; */
+    /* top: 250px; */
     padding: 10px 0px;
     background-color: black;
     color: white;
