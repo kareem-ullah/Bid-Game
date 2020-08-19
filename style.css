@@ -1,0 +1,48 @@
+body{
+    /* text-align: center; */
+}
+.div{
+    position: absolute;
+    left: 35%;
+    width: 500px;
+    height: 350px;
+    background-color: rgb(128, 128, 241);
+}
+h1{
+    width: 120px;
+    position: absolute;
+    left: 36%;
+    top: 50px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 2em;
+    background-color: rgb(9, 100, 100);
+    color: white;
+    border: 10px solid cornflowerblue;
+}
+h2{
+    position: absolute;
+    left: 38%;
+    font-size: 30px;
+    font-style: oblique;
+}
+p{
+    position: absolute;
+    left: 10%;
+    top: 180px;
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    width: 120px;
+    position: absolute;
+    left: 38%;
+    top: 250px;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 2em;
+    outline: none;
+    border: 10px solid cornflowerblue;
+}
